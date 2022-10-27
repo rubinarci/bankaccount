@@ -6,4 +6,7 @@ echo "inserisci secondo numero "
 read x2
 
 sum=$(expr $x1 + $x2)
-echo $sum
+echo " addizione: $sum "
+
+mult=$(expr $x1 \* $x2)
+echo " moltiplicazione: $mult "
